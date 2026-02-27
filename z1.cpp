@@ -5,7 +5,7 @@
 #include <string>
 
 using namespace std;
-
+//противный комментарий
 /**
  * Класс Rectangle представляет прямоугольник
  */
