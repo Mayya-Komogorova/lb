@@ -1,0 +1,71 @@
+# Скомпилированные бинарные файлы
+rectangle
+rectangle.exe
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Go специфичные файлы
+*.test
+*.prof
+go.sum
+
+# C++ специфичные файлы
+*.so
+*.dylib
+*.dll
+*.a
+*.la
+*.lo
+*.slo
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Директории сборки
+build/
+bin/
+obj/
+debug/
+release/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.filters
+*.vcxproj.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.nfs*
